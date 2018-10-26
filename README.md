@@ -1,6 +1,6 @@
 # 🔥 HashHack 3.0 🔥
 
-![Screenshot of the Login](./Screenshot/Capture2.png)
+![Screenshot of the Login](./Screenshot/banner.png)
 
 ## Abstract 🎇
 
