@@ -1,0 +1,22 @@
+{
+  "name": "hashhacks3_s.r.aman.sra402",
+  "version": "1.0.0",
+  "description": "Making health care facility using blockChain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402/issues"
+  },
+  "homepage": "https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402#readme",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
+}
