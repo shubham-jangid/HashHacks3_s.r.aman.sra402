@@ -16,3 +16,9 @@
 - This will provide a **robust model which is not interfered by any human being 🤬** and ultimately will lead to **Fraud Free health-care system 👩‍⚕️**.
 
 - The patient's data is updated on a block-chain network. It will keep the **history of the person health throughout his/her life 📄** & Doctors who are treating him or her **can see the history and treat accordingly 💉**.
+
+### Fields Covered
+
+- Block Chain ⛓️
+- Machine Learning tool🤖
+- Health Care 🏥💓
