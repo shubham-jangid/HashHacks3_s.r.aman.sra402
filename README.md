@@ -26,3 +26,7 @@
 ## UI
 
 ![Screenshot of the Login](./Screenshot/Login.png)
+
+## Representational Model
+
+![Model](./Screenshot/model.jpeg)
