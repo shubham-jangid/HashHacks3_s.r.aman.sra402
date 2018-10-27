@@ -118,4 +118,4 @@ function getReports(uint id) public view returns (uint[], uint[], uint[]) {
 </br>
 </br>
 
-![Alt Text](./screenshot/working.gif)
+![Alt Text](./Screenshot/working.gif)
