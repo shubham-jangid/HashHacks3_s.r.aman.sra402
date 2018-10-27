@@ -9,7 +9,7 @@ contract HealthCare {
     
 
     mapping(uint => Report[]) public reports;
-    mapping(string => uint[]) public patientData;
+    mapping(string => uint[]) patientData;
 
     function createReport(uint id, uint data1, uint data2, uint data3) public {
         reports[id].push(Report(data1, data2, data3));

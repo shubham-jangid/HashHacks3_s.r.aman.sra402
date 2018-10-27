@@ -1,6 +1,6 @@
-import { withFormik, Field, Form } from 'formik';
+import { withFormik, Field } from 'formik';
 import * as Yup from 'yup';
-
+import { StyledForm as Form } from './../UI/global'
 const UUIDForm = ({ isSubmitting }) => (
   <Form>
     <label htmlFor="text">Address</label>
