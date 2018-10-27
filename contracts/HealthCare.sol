@@ -9,7 +9,7 @@ contract HealthCare {
     
 
     mapping(uint => Report[]) public reports;
-    mapping(address => uint[]) public patientData;
+    mapping(string => uint[]) public patientData;
 
     function createReport(uint id, uint data1, uint data2, uint data3) public {
         reports[id].push(Report(data1, data2, data3));
@@ -27,11 +27,11 @@ contract HealthCare {
         return (data1Array, data2Array, data3Array);
     }
 
-    function addAccident(address patientAddress, uint uid) public {
+    function addAccident(string patientAddress, uint uid) public {
         patientData[patientAddress].push(uid);
     }
 
-    function getUIDS(address patientAddress) public view returns (uint[]) {
+    function getUIDS(string patientAddress) public view returns (uint[]) {
         return patientData[patientAddress];
     }
 }

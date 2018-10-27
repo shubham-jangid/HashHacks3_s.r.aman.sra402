@@ -1,24 +1,27 @@
 {
-  "name": "hashhacks3_s.r.aman.sra402",
+  "name": "hashhack",
   "version": "1.0.0",
-  "description": "Making health care facility using blockChain",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402/issues"
-  },
-  "homepage": "https://github.com/shubham-jangid/HashHacks3_s.r.aman.sra402#readme",
   "dependencies": {
-    "ganache-cli": "^6.1.8",
-    "solc": "^0.4.25",
-    "web3": "^1.0.0-beta.26"
+    "formik": "^1.3.1",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "truffle-contract": "^3.0.6",
+    "uuid": "^3.3.2",
+    "web3": "^0.20.5",
+    "yup": "^0.26.6"
   }
 }
